@@ -2,6 +2,8 @@
 
 nodejs+typescript+vitest
 
+[English](README_EN.md) | [中文](README.md)
+
 ## 功能特性
 
 - typescript
@@ -35,7 +37,7 @@ cd your-project && npm install
 
 ```shell
 npm run dev # 运行
-npm run dev:debug # 调试 
+npm run dev:debug # 调试
 npm run build # 编译
 npm run test # 测试
 ```
