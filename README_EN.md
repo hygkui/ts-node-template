@@ -2,6 +2,8 @@
 
 nodejs+typescript+vitest
 
+[English](README_EN.md) | [中文](README.md)
+
 ## Features
 
 - typescript
