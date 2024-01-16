@@ -27,17 +27,18 @@ nodejs+typescript+vitest
 
 安装项目依赖
 
+```shell
 cd your-project && npm install
+```
 
 ### 开发
 
-- 运行 `npm run dev`
-
-- 调试 `npm run dev:debug`
-
-- 编译  `npm run build`
-
-- 测试 `npm run test`
+```shell
+npm run dev # 运行
+npm run dev:debug # 调试 
+npm run build # 编译
+npm run test # 测试
+```
 
 ## 代码贡献
 
