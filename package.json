@@ -1,0 +1,26 @@
+{
+  "name": "ts-node-template",
+  "version": "0.1.1",
+  "description": "nodejs+typescript+vitest",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "ts-node src/index.ts",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect src/index.ts",
+    "build": "rm -rf ./dist && npx tsc",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.3",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

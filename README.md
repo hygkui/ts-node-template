@@ -1,2 +1,48 @@
 # ts-node-template
-nodejs20+typescript+vitest
+
+nodejs+typescript+vitest
+
+## 功能特性
+
+- typescript
+- nodemon
+- Vitest
+
+## 快速开始
+
+### 环境要求
+
+在开始之前，请确保安装以下软件和工具：
+
+- Node.js v16+
+- TypeScript
+
+### 安装
+
+克隆项目到本地：
+
+  ```shell
+  git clone https://github.com/hygkui/ts-node-template
+  ```
+
+安装项目依赖
+
+cd your-project && npm install
+
+### 开发
+
+- 运行 `npm run dev`
+
+- 调试 `npm run dev:debug`
+
+- 编译  `npm run build`
+
+- 测试 `npm run test`
+
+## 代码贡献
+
+如果你想为项目贡献代码，欢迎提交Pull Request。在提交之前，请确保你已经阅读并遵守我们的贡献指南。
+
+## 许可证
+
+这个项目使用 [MIT] 许可证 - 详细信息请参阅 LICENSE 文件。
